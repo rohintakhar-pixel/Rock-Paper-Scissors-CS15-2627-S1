@@ -4,7 +4,7 @@ def get_cpu_choice():
     choices = ["rock", "paper", "scissors"]
     return random.choice(choices)
 
-def determine_winner(player, cpu):
+
     if player == cpu:
         return "tie"
     elif (player == "rock" and cpu == "scissors") or \
