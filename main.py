@@ -48,7 +48,7 @@ def play_tournament():
             cpu_wins += 1
             print("CPU wins this round!")
         else:
-            ties += 1
+            ties += 0
             print("This round is a tie!")
 
         print(f"Score You: {player_wins} | CPU: {cpu_wins} | Ties: {ties}\n")
